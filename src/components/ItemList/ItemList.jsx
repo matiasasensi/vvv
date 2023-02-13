@@ -1,9 +1,16 @@
-import { Item } from "../Item/Item"
-export const ItemList = ({products}) => {
-  return (
-    <>
-        {products.map(producto => <Item item={producto} key={producto.id}/>)}
-    </>
-  )
+
+import Item from '../Item/Item';
+
+const Itemlist = ({products}) => {
+    return (
+        <>
+        <div className='componentePadreDeNuestrasCards' >
+            {products.map(producto =>  <Item key={producto.id} item={producto}/>)
+            } 
+        </div>
+        </>
+    );
 }
-export default ItemList;
+
+export default Itemlist;
+

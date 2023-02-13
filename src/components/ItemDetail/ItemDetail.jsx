@@ -5,7 +5,7 @@ export const ItemDetail = ({item}) => {
         <div className="col-md-4">
             <img src={`../img/${item.img}`} className="img-fluid rounded-start" alt={`Imagen de ${item.nombre}`} />
         </div>
-        <div className="col-md-8">
+        <div className="col-md-8 w-25">
             <div className="card-body">
                 <h5 className='card-title'>{item.nombre} {item.modelo}</h5>
                 <p className='card-text'>Marca: {item.marca}</p>

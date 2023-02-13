@@ -38,5 +38,19 @@
 }
 
 .itemDetalle{
-  flex-direction: row;
+  max-width: 25%;
+  margin-top: 20px; 
+  margin: 4px;
+  align-items: center;
+}
+
+.componentePadreDeNuestrasCards{
+  display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+}
+
+img{
+  max-width: 25%;
 }
