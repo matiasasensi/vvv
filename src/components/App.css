@@ -51,6 +51,15 @@
         flex-wrap: wrap;
 }
 
-img{
-  max-width: 25%;
+.imagen{
+  max-width: 50%;
+}
+
+.cartita{
+  max-width: 20%;
+  max-height: 30%;
+}
+
+body{
+  background-color: black;
 }

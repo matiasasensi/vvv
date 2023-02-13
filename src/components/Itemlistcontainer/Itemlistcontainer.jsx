@@ -40,7 +40,7 @@ const ItemListContainer = () => {
         },[idCategoria]);   
         
     return (        
-        <div className='row'>
+        <div>
             {productos}
         </div>
     );
