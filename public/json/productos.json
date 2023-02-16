@@ -7,7 +7,7 @@
         "modelo": "Y510P",
         "precio": 60000,
         "stock": 30,
-        "img": "notebook-lenovo.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-proyecto-c906e.appspot.com/o/notebook-lenovo.jpg?alt=media&token=7f70c6b0-2fe5-40b7-a794-4c7d2917f4c8"
     },
     {
         "id": 2,

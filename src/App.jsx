@@ -1,10 +1,12 @@
 import './App.css';
-import Navbar from './Navbar/Navbar';
-import Itemlistcontainer from './Itemlistcontainer/Itemlistcontainer';
-import ItemDetailContainer from './ItemDetailContainer/ItemDetailContainer';
+import Navbar from './components/Navbar/Navbar';
+import Itemlistcontainer from './components/Itemlistcontainer/Itemlistcontainer';
+import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import {BaseDatos} from "./firebase/firebase";
 
 function App() {
+   BaseDatos()
   return (
     <>
      <BrowserRouter>
