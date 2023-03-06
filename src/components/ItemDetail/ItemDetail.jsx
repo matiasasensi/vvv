@@ -11,8 +11,7 @@ export const ItemDetail = ({item}) => {
                 <p className='card-text'>Marcaaaaa: {item.marca}</p>
                 <p className='card-text'>Precio: ${new Intl.NumberFormat('de-DE').format(item.precio)}</p>
                 <p className='card-text'>Stock: {item.stock}</p>
-                <ItemCount valInicial={1} stock={item.stock}/>
-                <button className='btn btn-secondary'>Finalizar Compra</button>
+                <ItemCount valInicial={1} item={item} stock={item.stock}/>
             </div>
         </div>
      
